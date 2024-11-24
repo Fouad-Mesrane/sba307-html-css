@@ -1,1 +1,2 @@
 # sba307-html-css
+Perkup Coffee is a simple and elegant website for a cozy coffee shop. It showcases our menu, allows customers to contact us, and highlights the warmth and quality we bring to every cup. Built with only HTML and CSS, it features a clean design, responsive layout, and smooth animations. Perfect for coffee lovers!
