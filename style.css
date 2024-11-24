@@ -77,6 +77,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .hero > h3 {
   font-size: 2em;
@@ -119,4 +120,155 @@ nav {
   font-weight: 500;
 }
 
-/*  */
+/* Menu Page */
+.first-part thead {
+    color: rgb(235, 194, 15);
+    font-size: 1.5em;
+}
+.first-part td {
+    padding: 15px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+} 
+
+.first-part {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 85%;
+    /* background-image: url("https://plus.unsplash.com/premium_photo-1726812178330-6d2ac18a809e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA1fHxjb2ZmZWUlMjBtZW51JTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.first-part > table {
+    background-color: rgba(51, 65, 85,0);
+    width: 40%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.add-to-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 10px;
+}
+.add-to-cart select {
+    padding: 5px;
+    background-color: rgba(51, 65, 85, 1);
+    color: white;
+    font-size: .8em;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+}
+.add-to-cart button {
+    padding: 5px 15px;
+    font-weight: 700;
+    background-color: rgba(51, 65, 85, 1);
+    border: none;
+    color: white;
+    font-size: .8em;
+    border-radius: 4px;
+}
+.add-to-cart button:hover {
+    background-color: #0d6efd;
+    cursor: pointer;
+}
+
+.add-to-cart > select:hover {
+    cursor: pointer;
+    background-color: #0d6efd;
+}
+
+.steam {
+    width: 20px;
+    height: 40px;
+    background: linear-gradient(to top, rgba(255,255,255,0.7), transparent);
+    position: relative;
+    margin: 0 auto;
+    animation: float 2s infinite ease-in-out;
+    border-radius: 2px;
+  }
+  
+  .coffee-cup {
+    font-size: 5rem;
+    text-align: center;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+  }
+  
+
+  
+  /* Contact Form */
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 40%;
+    
+  }
+  .support-label  {
+    background-color: rgba(51, 65, 85, 0.7);
+    margin-bottom: 40px;
+    padding: 10px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+
+ 
+  .full-name {
+    display: flex;
+    justify-content: space-between;
+   margin: 10px 0;
+  }
+  .full-name input {
+    padding: 10px ;
+    border-radius: 5px;
+    border: none;
+  }
+  .first-name, .last-name   {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    
+  }
+.contact-info {
+   display: flex;
+   flex-direction: column;
+    margin: 10px 0;
+}
+.contact-info * {
+    margin: 10px 0;
+    padding: 10px ;
+    border-radius: 5px;
+    border: none;
+    
+}
+.contact-btn {
+    background-color: rgba(51, 65, 85, 0.3);
+    cursor: pointer;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.contact-btn:hover {
+    background-color: rgba(51, 65, 85, 0.9);
+    transition: background-color .3s ease-in-out;
+    
+}
