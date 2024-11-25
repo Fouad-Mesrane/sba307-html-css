@@ -67,12 +67,7 @@ nav {
   color: #f1f1f1;
   font-weight: 500;
 }
-.nav-link:hover {
-  color: rgba(255, 165, 0, .8);
-  border-bottom: 1px solid;
 
-  transition: all 0.3s ease-in-out;
-}
 .links li:hover {
     transform: translateY(-5px);
     transition: all 0.3s ease-in-out;
